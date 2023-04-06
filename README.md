@@ -1,4 +1,4 @@
-# Projet1 à la Wild Code School : Toys&co
+# Projet n°1 à la Wild Code School : Toys&co
 
 Objective : dashboard should revolve around these 4 main topics: sales, finance, logistics,
 and human resources.
