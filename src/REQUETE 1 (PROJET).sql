@@ -10,9 +10,6 @@ WHERE DATE_FORMAT(orders.orderDate, "%Y-%m-%d") >= DATE_SUB(DATE_FORMAT(NOW(),"%
 GROUP BY offices.country, mois
 ORDER BY offices.country, mois DESC;
 
--- Rajouter cette ligne dans SELECT pour calculer la variation entre les deux derniers mois.
--- LAG(SUM(amount)) OVER (ORDER BY MONTHNAME(paymentDate)) AS ca_precedent, SUM(amount) - LAG(SUM(amount)) OVER (ORDER BY MONTHNAME(paymentDate)) AS variation_ca
-
 
 
 
